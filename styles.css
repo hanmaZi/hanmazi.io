@@ -1,0 +1,64 @@
+/* Styles CSS pour les chapitres */
+.chapitre {
+    text-align: center;
+    text-decoration: solid;
+    width: 20%;
+    height: 740px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Ajout de la transition d'animation */
+  }
+  
+  
+  /* Styles CSS pour chaque chapitre */
+  .chapitre1 {
+    font-size:larger;
+    background-color: #333382 ;
+    font-family: Georgia, serif;
+    color: #ffc220;
+    text-shadow: rgb(255, 249, 249);
+  }
+  
+  .chapitre2 {font-size:larger;
+    
+    font-family: Georgia, serif;
+    color: #f378d8 ;
+    text-shadow: rgb(255, 249, 249);
+    background-color:#dcfc90 ;
+  }
+  
+  .chapitre3 {font-size:larger;
+    background-color: #6e1431 ;
+    font-family: Georgia, serif;
+    color: #a9ecfd;
+    text-shadow: rgb(255, 249, 249);
+    
+  }
+  
+  .chapitre4 {
+    font-size:larger;
+    background-color: #aaffee ;
+    font-family: Georgia, serif;
+    color: #ff3d3d;
+    text-shadow: rgb(255, 249, 249);
+  }
+  
+  .chapitre5 {
+    font-size:larger;
+    background-color: #b85005 ;
+    font-family: Georgia, serif;
+    color: #050505;
+    text-shadow: rgb(255, 249, 249);
+  }
+  
+  /* Style pour l'animation lors du survol */
+  .chapitre:hover {
+    background-color: gray;
+  }
+  
